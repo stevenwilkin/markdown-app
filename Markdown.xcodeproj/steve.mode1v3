@@ -252,7 +252,7 @@
 						<dict>
 							<key>PBXSmartGroupTreeModuleColumnWidthsKey</key>
 							<array>
-								<real>186</real>
+								<real>221</real>
 							</array>
 							<key>PBXSmartGroupTreeModuleColumnsKey_v4</key>
 							<array>
@@ -265,18 +265,19 @@
 							<array>
 								<string>29B97314FDCFA39411CA2CEA</string>
 								<string>080E96DDFE201D6D7F000001</string>
+								<string>29B97315FDCFA39411CA2CEA</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>4</integer>
-									<integer>1</integer>
+									<integer>6</integer>
+									<integer>2</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {186, 660}}</string>
+							<string>{{0, 0}, {221, 660}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -288,11 +289,11 @@
 					<key>GeometryConfiguration</key>
 					<dict>
 						<key>Frame</key>
-						<string>{{0, 0}, {203, 678}}</string>
+						<string>{{0, 0}, {238, 678}}</string>
 						<key>GroupTreeTableConfiguration</key>
 						<array>
 							<string>MainColumn</string>
-							<real>186</real>
+							<real>221</real>
 						</array>
 						<key>RubberWindowFrame</key>
 						<string>0 59 1280 719 0 0 1280 778 </string>
@@ -300,7 +301,7 @@
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
 					<key>Proportion</key>
-					<string>203pt</string>
+					<string>238pt</string>
 				</dict>
 				<dict>
 					<key>Dock</key>
@@ -325,14 +326,24 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>AA3D5CF9138A9FF700251EE9</string>
+										<string>AA3D5D4E138AACB700251EE9</string>
 										<key>history</key>
 										<array>
 											<string>AA3D5C72138A8C3000251EE9</string>
 											<string>AA3D5C90138A8DF600251EE9</string>
 											<string>AA3D5C91138A8DF600251EE9</string>
-											<string>AA3D5CF0138A9F5900251EE9</string>
-											<string>AA3D5CF1138A9F5900251EE9</string>
+											<string>AA3D5D0C138AA53D00251EE9</string>
+											<string>AA3D5D0D138AA53D00251EE9</string>
+											<string>AA3D5D0F138AA53D00251EE9</string>
+											<string>AA3D5D10138AA53D00251EE9</string>
+											<string>AA3D5D11138AA53D00251EE9</string>
+											<string>AA3D5D12138AA53D00251EE9</string>
+											<string>AA3D5D13138AA53D00251EE9</string>
+											<string>AA3D5D2A138AA9EE00251EE9</string>
+											<string>AA3D5D3C138AABC000251EE9</string>
+											<string>AA3D5D49138AAC6600251EE9</string>
+											<string>AA3D5D4A138AAC6600251EE9</string>
+											<string>AA3D5D4B138AAC6600251EE9</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -344,7 +355,7 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1072, 485}}</string>
+								<string>{{0, 0}, {1037, 485}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 59 1280 719 0 0 1280 778 </string>
 							</dict>
@@ -364,7 +375,7 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 490}, {1072, 188}}</string>
+								<string>{{0, 490}, {1037, 188}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 59 1280 719 0 0 1280 778 </string>
 							</dict>
@@ -375,7 +386,7 @@
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>1072pt</string>
+					<string>1037pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -530,7 +541,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>AA3D5CF7138A9F8C00251EE9</string>
 		<string>AA3D5C76138A8C3000251EE9</string>
 		<string>AA3D5C77138A8C3000251EE9</string>
 		<string>1CD10A99069EF8BA00B06720</string>
@@ -560,7 +570,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>MarkdownController.m</string>
+								<string>MarkdownParser.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>

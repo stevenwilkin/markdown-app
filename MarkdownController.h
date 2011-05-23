@@ -9,6 +9,7 @@
 #import <Cocoa/Cocoa.h>
 #import <WebKit/WebKit.h>
 
+#import "MarkdownParser.h"
 
 @interface MarkdownController : NSObject {
 
