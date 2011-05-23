@@ -16,7 +16,9 @@
 
 
 - (IBAction)preview:(id)sender {
-	NSLog(@"preview");
+	// convert markdown to html and display it with the webview
+	NSString *html = [MarkdownParser htmlFromMarkdown:[textInput string]];
+	[[htmlOutput mainFrame] loadHTMLString:html baseURL:nil];
 }
 
 @end
