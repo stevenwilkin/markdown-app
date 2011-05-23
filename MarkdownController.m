@@ -11,6 +11,10 @@
 
 @implementation MarkdownController
 
+@synthesize textInput;
+@synthesize htmlOutput;
+
+
 - (IBAction)preview:(id)sender {
 	NSLog(@"preview");
 }

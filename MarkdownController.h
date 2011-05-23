@@ -7,10 +7,18 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import <WebKit/WebKit.h>
 
 
 @interface MarkdownController : NSObject {
+
+	IBOutlet NSTextView *textInput;
+	IBOutlet WebView *htmlOutput;
+
 }
+
+@property (assign) IBOutlet NSTextView *textInput;
+@property (assign) IBOutlet WebView *htmlOutput;
 
 - (IBAction)preview:(id)sender;
 
