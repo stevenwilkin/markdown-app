@@ -1,9 +1,26 @@
 // !$*UTF8*$!
 {
+	256AC3D80F4B6AC300CF3369 /* MarkdownAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 453}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 319}";
+		};
+	};
+	256AC3D90F4B6AC300CF3369 /* MarkdownAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 453}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 373}";
+		};
+	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = AA3D5C22138A75C700251EE9 /* Markdown */;
 		activeTarget = 8D1107260486CEB800E47090 /* Markdown */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* Markdown */,
+		);
 		codeSenseManager = AA3D5C34138A75CD00251EE9 /* Code sense */;
 		executables = (
 			AA3D5C22138A75C700251EE9 /* Markdown */,
@@ -36,6 +53,13 @@
 		};
 		sourceControlManager = AA3D5C33138A75CD00251EE9 /* Source Control */;
 		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 453}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 255}";
 		};
 	};
 	8D1107260486CEB800E47090 /* Markdown */ = {

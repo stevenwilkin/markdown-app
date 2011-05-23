@@ -13,6 +13,7 @@
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		AA3D5C48138A7FFB00251EE9 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA3D5C47138A7FFB00251EE9 /* WebKit.framework */; };
+		AA3D5C5C138A8A2100251EE9 /* MarkdownController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3D5C5B138A8A2100251EE9 /* MarkdownController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		8D1107310486CEB800E47090 /* Markdown-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Markdown-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Markdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Markdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA3D5C47138A7FFB00251EE9 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		AA3D5C5A138A8A2100251EE9 /* MarkdownController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkdownController.h; sourceTree = "<group>"; };
+		AA3D5C5B138A8A2100251EE9 /* MarkdownController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkdownController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +52,8 @@
 			children = (
 				256AC3D80F4B6AC300CF3369 /* MarkdownAppDelegate.h */,
 				256AC3D90F4B6AC300CF3369 /* MarkdownAppDelegate.m */,
+				AA3D5C5A138A8A2100251EE9 /* MarkdownController.h */,
+				AA3D5C5B138A8A2100251EE9 /* MarkdownController.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -177,6 +182,7 @@
 			files = (
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
 				256AC3DA0F4B6AC300CF3369 /* MarkdownAppDelegate.m in Sources */,
+				AA3D5C5C138A8A2100251EE9 /* MarkdownController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
