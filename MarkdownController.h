@@ -12,15 +12,19 @@
 #import "MarkdownParser.h"
 
 @interface MarkdownController : NSObject {
-
+	
+	NSTimer *timer;
 	IBOutlet NSTextView *textInput;
 	IBOutlet WebView *htmlOutput;
 
 }
 
+@property (assign) NSTimer *timer;
 @property (assign) IBOutlet NSTextView *textInput;
 @property (assign) IBOutlet WebView *htmlOutput;
 
-- (IBAction)preview:(id)sender;
+- (void)preview;
+- (void)fireTimer:(NSTimer *)aTimer;
+- (void)textDidChange:(NSNotification *)notification;
 
 @end

@@ -208,6 +208,8 @@
 		<dict>
 			<key>ChosenToolbarItems</key>
 			<array>
+				<string>XCToolbarPerspectiveControl</string>
+				<string>NSToolbarSeparatorItem</string>
 				<string>active-combo-popup</string>
 				<string>action</string>
 				<string>NSToolbarFlexibleSpaceItem</string>
@@ -271,7 +273,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>6</integer>
+									<integer>5</integer>
 									<integer>2</integer>
 									<integer>0</integer>
 								</array>
@@ -326,7 +328,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>AA3D5D58138AAE2500251EE9</string>
+										<string>AA3D5E2E138D55F200251EE9</string>
 										<key>history</key>
 										<array>
 											<string>AA3D5C72138A8C3000251EE9</string>
@@ -340,10 +342,10 @@
 											<string>AA3D5D12138AA53D00251EE9</string>
 											<string>AA3D5D13138AA53D00251EE9</string>
 											<string>AA3D5D2A138AA9EE00251EE9</string>
-											<string>AA3D5D3C138AABC000251EE9</string>
 											<string>AA3D5D53138AAD9900251EE9</string>
 											<string>AA3D5D54138AAD9900251EE9</string>
-											<string>AA3D5D55138AAD9900251EE9</string>
+											<string>AA3D5E28138D55BE00251EE9</string>
+											<string>AA3D5E29138D55BE00251EE9</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -516,7 +518,7 @@
 		</dict>
 	</array>
 	<key>PerspectivesBarVisible</key>
-	<false/>
+	<true/>
 	<key>ShelfIsVisible</key>
 	<false/>
 	<key>SourceDescription</key>
@@ -541,6 +543,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>AA3D5E2F138D55F200251EE9</string>
 		<string>AA3D5C76138A8C3000251EE9</string>
 		<string>AA3D5C77138A8C3000251EE9</string>
 		<string>1CD10A99069EF8BA00B06720</string>
@@ -570,7 +573,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>MarkdownParser.m</string>
+								<string>MarkdownController.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
