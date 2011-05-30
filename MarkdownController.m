@@ -99,4 +99,19 @@
     return nil;
 }
 
+
+/**
+ * Prevent any action as a result of clicking on links in rendered html via WebFrameLoadDelegate protocol method
+ */
+- (void)webView:(WebView *)webView decidePolicyForNavigationAction:(NSDictionary *)actionInformation
+	request:(NSURLRequest *)request frame:(WebFrame *)frame
+	decisionListener:(id < WebPolicyDecisionListener >)listener {
+
+	if([[[request URL] absoluteString] isEqualToString:@"about:blank"]) {
+		[listener use];
+	} else {
+		[listener ignore];
+	}
+}
+
 @end
