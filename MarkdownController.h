@@ -14,6 +14,7 @@
 @interface MarkdownController : NSObject {
 	
 	NSTimer *timer;
+	NSPoint scrollPoint;
 	IBOutlet NSTextView *textInput;
 	IBOutlet WebView *htmlOutput;
 

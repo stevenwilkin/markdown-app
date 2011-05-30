@@ -19,7 +19,29 @@
 /**
  * Convert markdown to html and display it with the webview
  */
-- (void)preview { 
+- (void)preview {
+
+	// preserve scrolled-to position of webview
+	NSView *docView = [[[htmlOutput mainFrame] frameView] documentView];
+	NSRect bounds = [docView bounds];			// positon/size of full html content
+	NSRect visibleRect = [docView visibleRect];	// position/size of visible html content
+	
+	// TODO: take into consideration x co-ord of visibleRect?
+	if(NSMaxY(bounds) <= NSMaxY(visibleRect)) {
+		// webview either doesn't need scrollbars or has been scrolled to the bottom
+		float y;
+		if(visibleRect.origin.y == 0) {	// no scrollbars
+			y = 0;
+		} else {	// scrolled to bottom
+			y = CGFLOAT_MAX;
+		}
+		scrollPoint = NSMakePoint(visibleRect.origin.x, y);
+	} else {
+		// just use existing position
+		scrollPoint = visibleRect.origin;
+	}
+
+	// set the webview content
 	NSString *html = [MarkdownParser htmlFromMarkdown:[textInput string]];
 	[[htmlOutput mainFrame] loadHTMLString:html baseURL:nil];
 }
@@ -54,6 +76,17 @@
 		selector: @selector(fireTimer:)
 		userInfo: nil
 		repeats: NO];
+}
+
+
+/**
+ * Delegate method called when contents of webview have finished loading
+ *
+ * Restore previous scrolled-to position
+ */
+- (void)webView:(WebView *)sender didFinishLoadForFrame:(WebFrame *)frame {
+	NSView *docView = [[[htmlOutput mainFrame] frameView] documentView];
+	[docView scrollPoint:scrollPoint];
 }
 
 @end
