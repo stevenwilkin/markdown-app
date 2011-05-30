@@ -89,4 +89,14 @@
 	[docView scrollPoint:scrollPoint];
 }
 
+
+/**
+ * Disable webview context menu via WebUIDelegate protocol method
+ */
+- (NSArray *)webView:(WebView *)sender contextMenuItemsForElement:(NSDictionary *)element 
+    defaultMenuItems:(NSArray *)defaultMenuItems {
+    // disable right-click context menu
+    return nil;
+}
+
 @end
