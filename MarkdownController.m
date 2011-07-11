@@ -14,6 +14,8 @@
 @synthesize timer;
 @synthesize textInput;
 @synthesize htmlOutput;
+@synthesize urlView;
+@synthesize urlLabel;
 
 
 /**
@@ -112,6 +114,25 @@
 	} else {
 		[listener ignore];
 	}
+}
+
+
+/**
+ * Show the URL when the mouse is over a link
+ */
+- (void)webView:(WebView *)sender mouseDidMoveOverElement:(NSDictionary *)elementInformation modifierFlags:(NSUInteger)modifierFlags {
+	
+	NSString *url = [elementInformation valueForKey:@"WebElementLinkURL"];
+	
+	// set and show URL label if hovered element is a link
+	if(url != nil) {
+		[urlLabel setStringValue:url];
+		[urlView setHidden:NO];
+	} else {
+		// not a link, hide label
+		[urlView setHidden:YES];
+	}
+	
 }
 
 @end

@@ -17,12 +17,18 @@
 	NSPoint scrollPoint;
 	IBOutlet NSTextView *textInput;
 	IBOutlet WebView *htmlOutput;
+	IBOutlet NSView *urlView;
+	IBOutlet NSTextField *urlLabel;
 
 }
 
 @property (assign) NSTimer *timer;
 @property (assign) IBOutlet NSTextView *textInput;
 @property (assign) IBOutlet WebView *htmlOutput;
+
+@property (assign) NSTimer *urlTimer;
+@property (assign) IBOutlet NSView *urlView;
+@property (assign) IBOutlet NSTextField *urlLabel;
 
 - (void)preview;
 - (void)fireTimer:(NSTimer *)aTimer;
