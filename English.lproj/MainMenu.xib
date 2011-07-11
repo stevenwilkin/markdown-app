@@ -21,7 +21,7 @@
 		</object>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="620"/>
+			<integer value="558"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -1623,13 +1623,19 @@
 														<bool key="EncodedWithXMLCoder">YES</bool>
 														<string>WebKitDefaultFixedFontSize</string>
 														<string>WebKitDefaultFontSize</string>
+														<string>WebKitJavaEnabled</string>
+														<string>WebKitJavaScriptEnabled</string>
 														<string>WebKitMinimumFontSize</string>
+														<string>WebKitPluginsEnabled</string>
 													</object>
 													<object class="NSMutableArray" key="dict.values">
 														<bool key="EncodedWithXMLCoder">YES</bool>
 														<integer value="12"/>
 														<integer value="12"/>
+														<boolean value="NO"/>
+														<boolean value="NO"/>
 														<integer value="1"/>
+														<boolean value="NO"/>
 													</object>
 												</object>
 											</object>
